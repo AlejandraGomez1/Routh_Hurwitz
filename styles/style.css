@@ -1,0 +1,149 @@
+/*Header*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: 3px solid #0ea78d;
+    margin-top: 0;
+    padding-top: 0;
+}
+.datos{
+    font-size: 150%;
+    margin-top: none;
+    margin-block-end: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inherit;
+}
+.title{
+    text-align:start;
+    color: #2e6c61;
+    margin-top: 30px;
+    
+}
+.header a{
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0b8b76;
+    padding: 0px; 
+    height: inherit; 
+    display: flex;
+    align-items: center;
+    border: 1.4px solid rgb(70, 175, 166);
+    background-color: rgb(199, 231, 227);
+}
+.logo{
+    display: flex;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.logo img{
+    margin: 0px 0px 0px 5px ;
+    display: flex;
+    padding: 0;
+}
+.header ol{
+    list-style: none; 
+    display: flex; /*Sirve para poner la lista de elementos de la lista horizontalmente*/ 
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.link:hover {
+    color: white;
+    background-color: #e3e6e9;
+    border: 0.5px solid #D5D9D9;
+    border-left: 50px;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+/*menu*/
+.menu{
+    height: inherit;
+    font-size: 140%;
+}
+.menu li{
+    display: inline; /*para poner la lista en horizontal*/
+}
+/*Footer*/
+.footer{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-top: 1px solid #D5D9D9;
+  margin-top: 0;
+  padding: 1em;
+}
+a:link{
+text-decoration: none;
+}
+
+
+/*End Footer*/
+form{
+    text-align: center;
+}
+.tablita{
+    display: inline-block;    
+}
+/*Tablaaaaaa Estilos*/
+.tabla{
+border-collapse: collapse; /*Esta propiedad hace que parezca mas una tabla*/
+font-family: 'Quicksand', sans-serif;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+}
+table tr th{
+    border: 10px solid white;
+    width: 220px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #0ab19b;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+}
+
+/* Para el estilo de las nuevas celdas */
+td {
+    border: 1px solid #4de2e2;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    display: block;
+}
+.caja label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    color: rgb(16, 62, 148);
+
+}
+.caja input{
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    background-color: rgb(197, 228, 236);
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 100%;
+    border: 2px solid rgb(35, 214, 205);
+    color: black;
+}
+.submit{
+    width: 8em;
+    height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    background-color: #30b195;
+    border: 5px solid rgb(255, 255, 255);
+}

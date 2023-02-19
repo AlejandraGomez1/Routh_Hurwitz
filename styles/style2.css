@@ -1,0 +1,106 @@
+/*Header*/
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    border-bottom: 2px solid #0ea7a2;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(192, 238, 235);
+}
+
+#grafica{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin-left: 170px;
+}
+
+#pagina{
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo{
+    display: flex;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+    margin-inline-start: 45px;
+    margin-inline-end: 0px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+
+.datos{
+    text-align: center;
+    font-size: 150%;
+    margin-top: none;
+    margin-block-end: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inherit;
+}
+
+.title{
+    text-align: center;
+    color: #2e656c;
+    margin-top: 40px;
+}
+
+.subt{
+    color: rgb(92, 130, 131);
+}
+.espacio{
+    color:  rgb(192, 238, 223);
+    font-size: 80%;
+}
+
+.uno{
+    grid-template-columns:1fr 8fr 15fr;
+    display: grid;
+    min-height: 600px;
+}
+
+#perfil{
+    text-align: left;
+    margin-block-end: 20px;
+    margin-block-start: 30px;
+}
+.descrip{
+    text-align: justify;
+}
+
+.texto{
+    display: inline-block;
+    vertical-align: top;
+  }
+.text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contact .li{
+    text-decoration:solid;
+}
+
+.ciudad{
+    margin-block-start: 5px;
+    margin-left: 2px;
+    margin-block-end: 5px;
+}
+
+.hab{
+    margin-left: 20px;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/ico" href="images/icon_page.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CRUD dinamico con HTMLS, CSS and JS">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+    <title>Crud JS</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <figure class="logo">
+          <img src="images/estable3.png" height="85" alt="Logo de la pagina" "/>
+        </figure>
+        <nav class="datos">    
+          <ol>
+              <h1  class="title"><b>ROUTH HURWITZ</b> </h1>
+          </ol>  
+      
+        </nav>
+          <nav class="menu">
+            <ol>
+              <li>
+                <a class="link" href="instruc.html"  onclick="presionar()"><b >Volver</b></a>
+              </li>
+            </ol>
+          </nav>
+      </header>
+    <br/>
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tablita">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr> 
+                      <th >COEFICIENTES</th>
+
+                    </tr>
+                  </thead>
+                    <tbody>
+      
+                    </tbody>
+                </table>
+              </div>
+              <br/>
+              <br/>
+              <div class="caja">
+                <label for="n1"> <b>  s^4 </b></label> <input type="text" id="n1" placeholder="Escriba aqui" required>
+                <label for="n2"> <b>  s^3 </b></label> <input type="text" id="n2" placeholder="Escriba aqui" required>
+                <label for="n3"> <b>  s^2 </b></label> <input type="text" id="n3" placeholder="Escriba aqui" required>
+                <label for="n4"><b>  s^1 </b></label> <input type="text" id="n4" placeholder="Escriba aqui" required>
+                <label for="n5"><b>  s^0 </b></label> <input type="text" id="n5" placeholder="Escriba aqui" required>
+              </div>
+              <br/>
+              <input class="submit" type="submit" value="Calcular" onclick="operaciones()">
+              <h3 id="resultado" style="color: #007bff"></h3><br>
+              </form>
+        <br/>
+        <br/>
+        </div>
+   <footer class="footer" id="footer">
+    <div class="you">
+      <a target="_blank" href="https://www.youtube.com/watch?v=nXf_II4Kbi0&t=1s"><p class="texto">Método manual</p></a>
+      <img src="images/Youtube.png" height="40"  />
+    </div>
+   </footer>
+</body>
+<script type="text/javascript" src="js/crud.js"></script>
+</html>
