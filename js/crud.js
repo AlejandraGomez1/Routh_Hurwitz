@@ -25,15 +25,11 @@ function operaciones (){
     for (var i = 0; i < 5; i++) { 
         if (vec[i]<0){
             var a = "inestable"
-            res=document.getElementById("resultado")
-            res.innerHTML=a;
+            return "Inestable"
         }        
       }
     if (a == null){
-        var e = "estable"
-        a=e;
-        res=document.getElementById("resultado")
-        res.innerHTML=a;
+            return "Estable"
     }
 }
 
@@ -55,9 +51,8 @@ function InsertarDatos(data) {
     columna3 = Fila.insertCell(2).innerHTML = data.n3
     columna3 = Fila.insertCell(3).innerHTML = data.n4
     columna3 = Fila.insertCell(4).innerHTML = data.n5
-    columna3 = Fila.insertCell(5).innerHTML = `<input class="submit" type="button" onClick="Editarr(this)" value="Editar" >
-                                            <input class="submit" type="button" onClick="Borrarr(this)" value="Borrar" >`
-    columna3 = Fila.insertCell(6).innerHTML = "estable";
+    columna3 = Fila.insertCell(5).innerHTML = `<input class="submit" type="button" onClick="Editarr(this)" value="Editar" ><br><input class="submit" type="button" onClick="Borrarr(this)" value="Borrar" >`
+    columna3 = Fila.insertCell(6).innerHTML = operaciones();
     document.getElementById("n1").focus()
     Vaciar()
 }
